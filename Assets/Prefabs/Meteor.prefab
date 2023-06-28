@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6926702027895608298}
   - component: {fileID: 6926702027895608299}
   m_Layer: 0
-  m_Name: FloatManIdea__4_-removebg-preview
+  m_Name: Meteor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,6 +147,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.44830537, y: -0.16468376}
+  m_Offset: {x: -0.4694641, y: -0.16468377}
   serializedVersion: 2
-  m_Radius: 0.2502038
+  m_Radius: 0.20428544

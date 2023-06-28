@@ -28,6 +28,6 @@ public class ObstacleSpawn : MonoBehaviour
         float X = Random.Range(minX, maxX);
         float Y = Random.Range(minY, maxY);
 
-        Instantiate(Obstacle, transform.position + new Vector3(X, Y, 0), transform.rotation);
+        Instantiate(Obstacle, transform.position + new Vector3(X, Y, 0), transform.rotation);                    
     }
 }
