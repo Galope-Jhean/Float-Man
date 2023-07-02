@@ -1,0 +1,318 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 14284 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\GameDeveloping\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Original Games/Float-Man/Assets
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51280
+Successfully changed project path to: D:/Original Games/Float-Man/Assets
+D:/Original Games/Float-Man/Assets
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11872] Host "[IP] 10.15.211.241 [Port] 0 [Flags] 2 [Guid] 746711607 [EditorId] 746711607 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QQ240EH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11872] Host "[IP] 10.15.211.241 [Port] 0 [Flags] 2 [Guid] 746711607 [EditorId] 746711607 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QQ240EH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 85.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path D:/GameDeveloping/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Original Games/Float-Man/Assets/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
+    Vendor:   ATI
+    VRAM:     7142 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'D:/GameDeveloping/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/GameDeveloping/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/GameDeveloping/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/GameDeveloping/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/GameDeveloping/2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/GameDeveloping/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011304 seconds.
+- Loaded All Assemblies, in  1.379 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 746 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.251 seconds
+Domain Reload Profiling: 3630ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (485ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (519ms)
+			TypeCache.Refresh (518ms)
+				TypeCache.ScanAssembly (493ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2252ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1475ms)
+			SetLoadedEditorAssemblies (30ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Original Games\Float-Man\Assets\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Original Games\Float-Man\Assets\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.275 seconds
+Refreshing native plugins compatible for Editor in 11.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 2359ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (825ms)
+		LoadAssemblies (482ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (504ms)
+			TypeCache.Refresh (456ms)
+				TypeCache.ScanAssembly (431ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (820ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (234ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 12.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (71.7 KB). Loaded Objects now: 4521.
+Memory consumption went from 144.2 MB to 144.2 MB.
+Total: 11.382700 ms (FindLiveObjects: 0.383500 ms CreateObjectMapping: 0.288300 ms MarkObjects: 10.535200 ms  DeleteObjects: 0.174700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3144.835055 seconds.
+  path: Assets/portal.png
+  artifactKey: Guid(755585f8700b53b47ba3f41f65528a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/portal.png using Guid(755585f8700b53b47ba3f41f65528a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b4043ab0a4b52978c6d1b2d9dcf53d') in 0.205185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Moon.png
+  artifactKey: Guid(f69031df316bf994bb4514e8d16d9fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moon.png using Guid(f69031df316bf994bb4514e8d16d9fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822f63f6d8dee3756e0a7f187e85eb80') in 0.032569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/pexels-instawalli-176851.jpg
+  artifactKey: Guid(9c557defc44170c4aa8ef19e8e90acc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pexels-instawalli-176851.jpg using Guid(9c557defc44170c4aa8ef19e8e90acc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872015ad48eaf30709fdfa88d9606efe') in 0.053810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FloatManIdea (5).png
+  artifactKey: Guid(4d69352f81ff5624fa99cd37019d6ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FloatManIdea (5).png using Guid(4d69352f81ff5624fa99cd37019d6ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0834ea4ab9fe9dc70ffa887446030843') in 0.029804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/background (1).png
+  artifactKey: Guid(48eeb0c3737edda4f85dc804da9aeba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background (1).png using Guid(48eeb0c3737edda4f85dc804da9aeba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceda952639a1e57c3aea22a9fb94eea0') in 0.026288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/try.png
+  artifactKey: Guid(ce316215169070e4198628f48c3bf446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/try.png using Guid(ce316215169070e4198628f48c3bf446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f38a07fd251d0f3ca66f2a9b36393d5') in 0.032763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FloatManIdea__4_-removebg-preview.png
+  artifactKey: Guid(385b99706cb95274683266196fe18b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FloatManIdea__4_-removebg-preview.png using Guid(385b99706cb95274683266196fe18b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38280965854c7f75364673b2cb2ef465') in 0.024828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SPACEMAN.TTF
+  artifactKey: Guid(cabae0fbc6033f343a0b97df6fa8e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPACEMAN.TTF using Guid(cabae0fbc6033f343a0b97df6fa8e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd5a3f9cb1f5c779f6a765126c67934') in 0.083263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FloatManIdea__3_-removebg-preview.png
+  artifactKey: Guid(5a143a726f27d15429f18adeca82aa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FloatManIdea__3_-removebg-preview.png using Guid(5a143a726f27d15429f18adeca82aa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eed428e09aadcc55e91b45ea1a46883') in 0.021984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/arrow.png
+  artifactKey: Guid(e37ccf1b89d64be4386dc0b94e9b9452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arrow.png using Guid(e37ccf1b89d64be4386dc0b94e9b9452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44757cd6f5705a969e76a876a9e12f49') in 0.021823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/dimension.jpg
+  artifactKey: Guid(348c33ef9fcc7164b8553df161f3c1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dimension.jpg using Guid(348c33ef9fcc7164b8553df161f3c1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53100b60569082d1246c52c6fb2fd26') in 0.026664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FloatManIdea-removebg-preview (1).png
+  artifactKey: Guid(f84ab468464da504aab9dd74da2a2a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FloatManIdea-removebg-preview (1).png using Guid(f84ab468464da504aab9dd74da2a2a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c913d3f318e16edd833d87b777ca7039') in 0.021674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/warningMeteor.png
+  artifactKey: Guid(e80fac336a4a94341b535b81b4796a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warningMeteor.png using Guid(e80fac336a4a94341b535b81b4796a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad1fd14d5c08f6a5f0c46f8eb2ce399') in 0.022438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/logout.png
+  artifactKey: Guid(48983074ee161124191d4197d5720618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/logout.png using Guid(48983074ee161124191d4197d5720618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bd2643ed46068ac081b5db77efe878') in 0.018436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FloatPoints.png
+  artifactKey: Guid(3c0391934be860e4ba34421251dd363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FloatPoints.png using Guid(3c0391934be860e4ba34421251dd363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02edbba792788cc6b6417a420df11d01') in 0.022570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cream Black Modern Icons Gaming Logo (1).png
+  artifactKey: Guid(c37b005ff68031842974728eb158a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cream Black Modern Icons Gaming Logo (1).png using Guid(c37b005ff68031842974728eb158a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ce7b16025265601ff4e2262f991837') in 0.025581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)

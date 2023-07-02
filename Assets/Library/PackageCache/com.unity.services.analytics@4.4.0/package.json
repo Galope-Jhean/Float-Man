@@ -1,0 +1,50 @@
+{
+  "name": "com.unity.services.analytics",
+  "displayName": "Analytics",
+  "version": "4.4.0",
+  "unity": "2019.4",
+  "description": "The Unity Analytics package automatically collects core events and user properties when someone uses your game or application, and enables you to track specific in-game actions your user performs by defining custom events. The data collected from this package is surfaced in the Unity dashboard where you can use it to gather user insights, segment your player base and make informed decisions around the optimization of your game.",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.services.core": "1.8.1",
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  },
+  "samples": [
+    {
+      "displayName": "Standard Events",
+      "description": "Example of using the predefined standardized products, including a demo scene",
+      "path": "Samples~/StandardEvents"
+    }
+  ],
+  "_upm": {
+    "gameService": {
+      "genericDashboardUrl": "https://dashboard.unity3d.com/analytics",
+      "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/events",
+      "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+      "configurePath": "Project/Services/Analytics"
+    },
+    "supportedPlatforms": [
+      "Android",
+      "iOS",
+      "Linux",
+      "Mac",
+      "PC",
+      "Windows 8.1 Universal",
+      "Windows 10 Universal",
+      "WebGL"
+    ],
+    "changelog": "### Added\n\n* CustomData method now supports IDictionary<string,object>, IList<object> and Enum parameters\n\n### Changed\n\n* Events are now serialised immediately when recorded rather than as part of the upload process. This should alleviate any hitches that might have been experienced during upload (every 60 seconds)\n* Updated `com.unity.services.core` dependency to 1.8.1\n\n### Fixed\n\n* Custom user ID can now be changed at runtime (by updating `UnityServices.ExternalUserId`)\n* Recording a single event that is too big to upload (over 4MB) no longer prevents any further events from being uploaded (event is immediately discarded with a warning)\n* Session ID is now refreshed when application is paused for over 5 minutes (when Run In Background is false)\n\n### Deprecated\n\n* The `RecordEvent(Event event)` API is no longer supported and will be removed in a future version"
+  },
+  "relatedPackages": {
+    "com.unity.services.analytics.tests": "4.4.0"
+  },
+  "upmCi": {
+    "footprint": "85a6935070b7b38157bba85e43dd1529f86ed6fc"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.analytics@4.4/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+    "type": "git",
+    "revision": "5db3aa3dee060f5a0e7a2730049651a66a7fafbe"
+  }
+}
