@@ -10,13 +10,14 @@ public class ObstacleSpawn : MonoBehaviour
     public float minY;
     public float maxY;
     public float TimeBetweenSpawn;
+    public bool dimensionHop = false;
     private float SpawnTime;
 
     // Update is called once per frame
     void Update()
     {
         
-        if(Time.time > SpawnTime) {
+        if(Time.time > SpawnTime && dimensionHop == false) {
             Spawn();
             SpawnTime = Time.time + TimeBetweenSpawn;
         }

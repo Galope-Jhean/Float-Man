@@ -8,6 +8,8 @@ public class findMeteor : MonoBehaviour
 {
 
     public Image warning;
+    public Image portal;
+    private float timer;
 
     // Update is called once per frame
     void Update()
@@ -15,13 +17,22 @@ public class findMeteor : MonoBehaviour
         GameObject myObject = GameObject.Find("Meteor(Clone)");
         if (myObject != null)
         {
-            warning.enabled = true;
-            warning.GetComponent<Animator>().Play("warningBlink");
+            timer += Time.deltaTime;
+
+            if (timer <= 3f)
+            {
+                warning.enabled = true;
+                warning.GetComponent<Animator>().Play("warningBlink");
+            }
+            else
+            {
+                warning.enabled = false;
+            }
         }
-        else { warning.enabled = false; }
-
-
-
-
+        else
+        {
+            warning.enabled = false;
+            timer = 0f;
+        }
     }
 }

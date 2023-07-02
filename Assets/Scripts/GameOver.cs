@@ -6,12 +6,16 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     public GameObject GameOverPanel;
+    public GameObject scoreUI;
     // Update is called once per frame
     void Update()
     {
+
+        
         if (GameObject.FindWithTag("Player") == null)
         {
             GameOverPanel.SetActive(true);
+            scoreUI.SetActive(false);
         }
     }
 
