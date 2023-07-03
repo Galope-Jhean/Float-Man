@@ -8,6 +8,11 @@ TagManager:
   - Portal
   - Undefined
   - Obstacle
+  - Score
+  - Prompt
+  - Meteor
+  - oxgn
+  - magic
   layers:
   - Default
   - TransparentFX

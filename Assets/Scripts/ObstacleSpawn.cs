@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObstacleSpawn : MonoBehaviour
 {
     public GameObject Obstacle;
+    public GameObject Obstacle1;
     public float maxX;
     public float minX;
     public float minY;
@@ -12,6 +13,8 @@ public class ObstacleSpawn : MonoBehaviour
     public float TimeBetweenSpawn;
     public bool dimensionHop = false;
     private float SpawnTime;
+    public Texture newBackgroundTexture;
+    public Renderer backgroundRenderer;
 
     // Update is called once per frame
     void Update()
@@ -28,7 +31,14 @@ public class ObstacleSpawn : MonoBehaviour
 
         float X = Random.Range(minX, maxX);
         float Y = Random.Range(minY, maxY);
-
-        Instantiate(Obstacle, transform.position + new Vector3(X, Y, 0), transform.rotation);                    
+        if(backgroundRenderer.material.mainTexture == newBackgroundTexture)
+        {
+            Instantiate(Obstacle1, transform.position + new Vector3(X, Y, 0), transform.rotation);
+        }
+        else
+        {
+            Instantiate(Obstacle, transform.position + new Vector3(X, Y, 0), transform.rotation);
+        }
+                         
     }
 }

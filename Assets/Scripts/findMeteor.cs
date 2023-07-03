@@ -14,7 +14,7 @@ public class findMeteor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameObject myObject = GameObject.Find("Meteor(Clone)");
+        GameObject myObject = GameObject.FindWithTag("Meteor");
         if (myObject != null)
         {
             timer += Time.deltaTime;

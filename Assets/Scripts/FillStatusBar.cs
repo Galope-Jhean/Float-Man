@@ -12,9 +12,11 @@ public class FillStatusBar : MonoBehaviour
     private float elapsedTime;
     private GameObject player;
     private float multiply = 0.8f;
+    public GameObject prompt;
+    public GameObject magic;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         slider = GetComponent<Slider>();
         player = GameObject.FindWithTag("Player");
@@ -23,15 +25,19 @@ public class FillStatusBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if( player != null )
+        if (player != null)
         {
-
-            if(slider.value <= slider.minValue)
+            if (slider.value <= slider.minValue)
             {
                 fillImage.enabled = false;
             }
 
-            if(player.transform.localScale == new Vector3(0.3653499f, 0.3761048f, 1f))
+            if (slider.value <= 30)
+            {
+                fillImage.color = Color.red;
+            }
+
+            if (player.transform.localScale == new Vector3(0.3653499f, 0.3761048f, 1f))
             {
                 multiply = 1.86f;
             }
@@ -42,6 +48,14 @@ public class FillStatusBar : MonoBehaviour
 
             elapsedTime += Time.deltaTime * multiply;
             float fillValue = maxOxygen - elapsedTime;
+
+            if (magic.activeSelf)
+            {
+                fillValue = slider.maxValue;
+                elapsedTime = 0f;
+                magic.SetActive(false);
+            }
+
             slider.value = fillValue;
         }
         else
@@ -49,10 +63,10 @@ public class FillStatusBar : MonoBehaviour
             oxgn.SetActive(false);
         }
 
-        if(slider.value == 0)
+        if (slider.value == 0)
         {
-            Destroy( player );
+            Destroy(player);
+            prompt.SetActive(true);
         }
-        
     }
 }

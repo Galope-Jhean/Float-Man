@@ -12,9 +12,11 @@ public class portal : MonoBehaviour
     public Texture ogBackgroundTexture;
     public string obstacleTag = "Obstacle";
     private bool hasCollided = false;
+    private GameObject meteor;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,12 +29,12 @@ public class portal : MonoBehaviour
         {
             hasCollided = true;
             SwitchDimension();
-            Debug.Log("Dimension Switched");
         }
     }
 
     private void SwitchDimension()
     {
+        meteor = GameObject.FindWithTag("Meteor");
         GameObject[] obstacles = GameObject.FindGameObjectsWithTag(obstacleTag);
         if (backgroundRenderer.material.mainTexture == ogBackgroundTexture)
         {
@@ -44,6 +46,7 @@ public class portal : MonoBehaviour
         }
 
         Destroy(gameObject);
+        Destroy(meteor);
         foreach (GameObject obstacle in obstacles)
         {
             Destroy(obstacle);
