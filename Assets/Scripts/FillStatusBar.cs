@@ -36,6 +36,10 @@ public class FillStatusBar : MonoBehaviour
             {
                 fillImage.color = Color.red;
             }
+            else
+            {
+                fillImage.color = Color.green;
+            }
 
             if (player.transform.localScale == new Vector3(0.3653499f, 0.3761048f, 1f))
             {

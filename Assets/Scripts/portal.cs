@@ -10,6 +10,7 @@ public class portal : MonoBehaviour
     public Renderer backgroundRenderer;
     public Texture newBackgroundTexture;
     public Texture ogBackgroundTexture;
+    public Texture oneMoreTexture;
     public string obstacleTag = "Obstacle";
     private bool hasCollided = false;
     private GameObject meteor;
@@ -39,6 +40,10 @@ public class portal : MonoBehaviour
         if (backgroundRenderer.material.mainTexture == ogBackgroundTexture)
         {
             backgroundRenderer.material.mainTexture = newBackgroundTexture;
+        }
+        else if(backgroundRenderer.material.mainTexture == newBackgroundTexture)
+        {
+            backgroundRenderer.material.mainTexture = oneMoreTexture;
         }
         else
         {
