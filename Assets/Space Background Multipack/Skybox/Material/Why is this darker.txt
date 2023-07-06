@@ -1,0 +1,13 @@
+This skybox will look darker than the web demo and this is because of how Unity 4.6 renders Skyboxes compared to Unity 5.
+
+For the same results I would recommend upgrading to Unity 5 if possible (the improvements are great and the latest patches are much more production ready)
+
+However if this isn't an option you can try tweaking the colour value of the material or saturating the base images to be brighter.
+
+As usual any issues either head to the forums or drops us an email.
+
+Cheers!
+Jason
+
+Forums: http://forum.unity3d.com/threads/parrallax-space-background-multipack-18-backgrounds-for-10.358620/#post-2321987
+Support: support@K2Games.co.uk

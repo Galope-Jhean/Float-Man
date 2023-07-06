@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stars
+  m_Shader: {fileID: 4800000, guid: f801e7eac4b6b5647ad144edf4012373, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlickerTex:
+        m_Texture: {fileID: 2800000, guid: f979c27e89ae73e45a0c1f13812f46be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.94704247, y: 0.05295734}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a92bc3a9def6c2745808c915aa2f8279, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTex:
+        m_Texture: {fileID: 2800000, guid: 8399c028fcc619b4d9b04d97e33b4708, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.0016059917, y: 0.0016059917}
+    - _TwinkleTex:
+        m_Texture: {fileID: 2800000, guid: d20e133d60ef9bf44aeec242b4a6fdcb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Offset: 1.82
+    - _TwinkleMax: 0.18170482
+    - _TwinkleMin: 0.77696466
+    - _TwinkleOffsetX: 0.008029957
+    - _TwinkleOffsetY: 0.00080299587
+    - _TwinkleRange: 0.1
+    - _isFlickering: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Colour: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
