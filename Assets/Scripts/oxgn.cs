@@ -7,7 +7,9 @@ public class oxgn : MonoBehaviour
 {
     public GameObject oxgnBar;
     public GameObject magic;
+    public AudioSource oxygenSound;
     private Slider slider;
+
     void Start()
     {
         slider = oxgnBar.GetComponentInChildren<Slider>();
@@ -22,6 +24,7 @@ public class oxgn : MonoBehaviour
         else if (collision.CompareTag("Player"))
         {
             magic.SetActive(true);
+            oxygenSound.Play();
             Destroy(this.gameObject);
         }
     }

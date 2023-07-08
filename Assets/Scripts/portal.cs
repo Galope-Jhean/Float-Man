@@ -14,10 +14,15 @@ public class portal : MonoBehaviour
     public string obstacleTag = "Obstacle";
     private bool hasCollided = false;
     private GameObject meteor;
+    public AudioSource portalSound;
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        
+        player = GameObject.FindGameObjectWithTag("Player");        
+    }
+
+    private void Update()
+    {
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,6 +35,8 @@ public class portal : MonoBehaviour
         {
             hasCollided = true;
             SwitchDimension();
+            portalSound.enabled = true;
+            portalSound.Play();
         }
     }
 

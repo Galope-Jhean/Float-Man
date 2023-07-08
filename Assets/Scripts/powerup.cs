@@ -8,6 +8,7 @@ public class powerup : MonoBehaviour
 {
     private GameObject player;
     public Vector3 collisionScale = new Vector3(0.3653499f, 0.3761048f, 1f);
+    public AudioSource shrinkSound;
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class powerup : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
+            shrinkSound.Play();
             Destroy(gameObject);
             player.transform.localScale = collisionScale;
         }

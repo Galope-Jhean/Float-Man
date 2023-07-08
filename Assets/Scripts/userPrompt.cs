@@ -22,7 +22,7 @@ public class userPrompt : MonoBehaviour
 
         time += 1 * (Time.deltaTime);
 
-        if (time > 2) {
+        if (time > 3) {
             text.text = "";
         }
     }

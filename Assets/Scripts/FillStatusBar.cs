@@ -14,6 +14,7 @@ public class FillStatusBar : MonoBehaviour
     private float multiply = 0.8f;
     public GameObject prompt;
     public GameObject magic;
+    public AudioSource oxygenWarning;
 
     // Start is called before the first frame update
     void Start()
@@ -34,10 +35,12 @@ public class FillStatusBar : MonoBehaviour
 
             if (slider.value <= 30)
             {
+                if(!oxygenWarning.isPlaying) { oxygenWarning.Play(); }
                 fillImage.color = Color.red;
             }
             else
             {
+                if (oxygenWarning.isPlaying) { oxygenWarning.Stop(); }
                 fillImage.color = Color.green;
             }
 
@@ -65,6 +68,10 @@ public class FillStatusBar : MonoBehaviour
         else
         {
             oxgn.SetActive(false);
+            if (oxygenWarning.isPlaying)
+            {
+                oxygenWarning.Stop();
+            }
         }
 
         if (slider.value == 0)

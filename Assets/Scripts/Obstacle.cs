@@ -5,6 +5,7 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     private GameObject Player;
+    public AudioSource deathSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class Obstacle : MonoBehaviour
 
         else if (collision.tag == "Player")
         {
+            deathSound.Play();
             Destroy(Player.gameObject);
         }
     }
